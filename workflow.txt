@@ -1,0 +1,34 @@
+Workflow for a 4-player tournament								
+	
+General information:
+Single-elimination bracket with a random seed for all players.
+No permission for players to report score - unable to upload attachment.
+All rounds are Bo1
+
+"match"
+"states": "open" , "pending" , "completed"
+Pending = pre-round not completed
+"underway_at": "2017-06-05T15:10:41.487-04:00",
+
+Create_____________				
+TournamentUrl created	
+Add players - playerID created
+Bracket created - matchID created
+					
+#1 GET 
+Tournament - name
+Matches - ID , player1_ID , player2_ID , round	<-- Sort into database?
+Players - ID , name
+
+Start_______________
+#1 POST ?
+
+#1 PUT ? - winnerID , matchID
+
+#2 GET
+Updated states on matches and playerID assigned to matchID  <-- Sort into database?
+
+#2 POST ? 
+
+
+End
